@@ -16,7 +16,7 @@
 
 <div align="center">
 
-![Preview](assets/PC.png)
+![Preview](src/assets/images/Preview/Desktop.png)
 
 </div>
 
@@ -36,6 +36,22 @@ World.
 2 - Criar um novo projeto Página Pessoal <br> a) Alterar o HTML para conter seus dados pessoais <br>
 b) Adicione imagens no diretório assets subdiretório img <br> c) Adicione uma imagem na página da
 seguinte forma <br> "&lt;img src="assets/img/minha_imagem.jpg" />"
+
+A seguir, imagens do projeto em diferentes dispositivos, Desktop, Tablet e Mobile.
+
+<div align="center">
+
+Desktop está na preview do README.
+
+Tablet
+
+![Preview](src/assets/images/Preview/Tablet.png)
+
+Mobile
+
+![Preview](src/assets/images/Preview/Mobile.png)
+
+</div>
 
 <br>
 <br>
