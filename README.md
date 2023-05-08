@@ -1,27 +1,65 @@
-# ContateMe
+<h1 align="center">Contate-me</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
+<div align="center">
 
-## Development server
+[Projeto](#projeto) &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Tecnologias](#tecnologias)
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; [Layout](#layout) &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+[Licença](#license)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+</div>
 
-## Code scaffolding
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<br>
 
-## Build
+<div align="center">
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![Preview](assets/PC.png)
 
-## Running unit tests
+</div>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<hr>
+<br>
+<br>
 
-## Running end-to-end tests
+## 💻 Projeto <a name = "projeto"></a>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Projeto baseado em uma atividade de POO 2 da minha faculdade a fim de praticar um pouco do Angular.
 
-## Further help
+Atividade:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1 - Baseado nos Slides da Aula 9, configure seu ambiente Angular, crie sua primeira aplicação Hello
+World.
+
+2 - Criar um novo projeto Página Pessoal <br> a) Alterar o HTML para conter seus dados pessoais <br>
+b) Adicione imagens no diretório assets subdiretório img <br> c) Adicione uma imagem na página da
+seguinte forma <br> "&lt;img src="assets/img/minha_imagem.jpg" />"
+
+<br>
+<br>
+
+## 🚀 Tecnologias <a name = "tecnologias"></a>
+
+- HTML
+- CSS
+- Angular
+
+<br>
+<br>
+
+## 🔖 Layout <a name = "layout"></a>
+
+Você pode visualizar o layout do projeto através
+[DESSE LINK](https://www.figma.com/file/563kgHMxsEy17nCdTJI6JC/Explore-sem-limites?type=design&node-id=2-10958).
+É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+<br>
+<br>
+
+## 🔒 Licença
+
+Esse projeto está sob a licença MIT.
+
+<hr>

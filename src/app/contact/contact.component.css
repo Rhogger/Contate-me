@@ -102,6 +102,8 @@ textarea {
 
 .stars {
   display: none;
+
+  /* overflow: hidden; */
 }
 
 footer {
@@ -123,21 +125,27 @@ footer p {
 }
 
 @media (min-width: 920px) {
+  .contact-menu {
+    width: 100%;
+    max-width: 592rem;
+
+    padding: 0 80rem;
+  }
+
+  h2 {
+    font-size: 44rem;
+  }
+}
+
+@media (min-width: 1164px) {
   section {
     flex-direction: row;
     justify-content: space-between;
   }
 
   .contact-menu {
-    margin: 0;
-    margin-left: 110rem;
-
-    width: 100%;
-    max-width: 592rem;
-  }
-
-  h2 {
-    font-size: 44rem;
+    padding: 0;
+    padding-left: 110rem;
   }
 
   .stars {
