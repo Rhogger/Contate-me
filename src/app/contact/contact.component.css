@@ -1,0 +1,146 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-menu {
+  margin: 78rem 0 65rem 0;
+
+  min-width: 348rem;
+}
+
+h2 {
+  font-size: 32rem;
+  font-weight: 900;
+  color: var(--color-primary);
+
+  margin-bottom: 43rem;
+}
+
+#inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 24rem;
+}
+
+.input-name,
+.input-email,
+textarea {
+  border: 2px solid var(--color-secondary);
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+}
+
+.input-name img,
+.input-email img {
+  padding: 12rem;
+}
+
+.input-name input,
+.input-email input,
+textarea {
+  background-color: #ffffff00;
+  font-size: 16rem;
+  color: var(--color-secondary);
+
+  padding: 10rem;
+  border: none;
+
+  min-height: 30rem;
+  width: 100%;
+}
+
+.input-name input:focus,
+.input-email input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.input-name input::placeholder,
+.input-email input::placeholder,
+textarea::placeholder {
+  font-weight: 700;
+  color: var(--color-primary);
+  opacity: 0.5;
+}
+
+.input-name input:required:not(:placeholder-shown):invalid .input-name,
+.input-email input:required:not(:placeholder-shown):invalid .input-email,
+textarea:required:not(:placeholder-shown):invalid {
+  border: 2px solid #ff0000;
+}
+
+textarea {
+  padding: 12rem 16rem 16rem 16rem;
+  border: 2px solid var(--color-secondary);
+
+  width: 100%;
+  min-height: 125rem;
+
+  resize: vertical;
+}
+
+.contact-menu button {
+  background: var(--bg-secondary);
+
+  font-size: 14rem;
+  font-weight: 700;
+  color: #FFF;
+
+  padding: 16rem;
+  border: none;
+  border-radius: 16px;
+
+  max-width: 160rem;
+
+}
+
+.stars {
+  display: none;
+}
+
+footer {
+  background: var(--bg-secondary);
+
+  width: 100%;
+
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+
+  padding: 16rem;
+}
+
+footer p {
+  font-size: 20rem;
+  font-weight: 700;
+  color: #FFF;
+}
+
+@media (min-width: 920px) {
+  section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .contact-menu {
+    margin: 0;
+    margin-left: 110rem;
+
+    width: 100%;
+    max-width: 592rem;
+  }
+
+  h2 {
+    font-size: 44rem;
+  }
+
+  .stars {
+    display: flex;
+  }
+}

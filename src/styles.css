@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-hsl: 244;
+
+  /* CORES TEXTO*/
+  --color-primary: hsla(320, 69%, 42%, 1);
+  --color-secondary: hsla(244, 38%, 28%, 1);
+
+  /* CORES BACKGROUND */
+  --bg-primary: hsla(283, 47%, 97%, 1);
+  --bg-secondary: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+
+  /* FONTES */
+  font-family: 'Mulish', sans-serif;
+  font-size: 6.25%;
+}
+
+body {
+  background-color: var(--bg-primary);
+
+  font-weight: var(--font-weight--primary);
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff00;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-secondary);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: hsla(var(--main-hsl), 70%, 80%, 1);
+}
